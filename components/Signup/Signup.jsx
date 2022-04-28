@@ -7,7 +7,7 @@ const Signup = () => {
     <SignupContainer>
       <Left>
         <Image
-          src="/signup.png"
+          src="/images/signup.png"
           alt=""
           width="339.95px"
           height="250px"

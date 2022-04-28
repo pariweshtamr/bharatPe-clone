@@ -20,12 +20,10 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <Navbar />
       <Business />
       <Banner />
-      {/* <Videos /> */}
+      <Videos />
       <Signup />
-      <Footer />
     </>
   )
 }

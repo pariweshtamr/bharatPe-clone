@@ -21,8 +21,8 @@ const Banner = () => {
         </h4>
 
         <BannerDownloads>
-          <Image src="/google.png" alt="" width="168px" height="50px" />
-          <Image src="/apple.png" alt="" width="168px" height="50px" />
+          <Image src="/images/google.png" alt="" width="168px" height="50px" />
+          <Image src="/images/apple.png" alt="" width="168px" height="50px" />
         </BannerDownloads>
       </BannerRight>
     </BannerContainer>

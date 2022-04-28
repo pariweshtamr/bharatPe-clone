@@ -64,7 +64,7 @@ export const BusinessBodyLeft = styled.div`
   grid-template-rows: repeat(3, 1fr);
   place-items: center;
   max-width: 50%;
-  margin: 60px 0 46px 0;
+  margin: 60px 0 46px 0px;
   grid-row-gap: 1rem;
   grid-template-areas:
     'a b c'

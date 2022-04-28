@@ -25,39 +25,69 @@ const Business = () => {
         <BusinessBody>
           <BusinessBodyLeft>
             <BusinessIcon className="a">
-              <Image src="/restaurants.png" alt="" width="55px" height="66px" />
+              <Image
+                src="/images/restaurants.png"
+                alt=""
+                width="55px"
+                height="66px"
+              />
               <p>Restaurants</p>
             </BusinessIcon>
             <BusinessIcon className="b">
-              <Image src="/grocery.png" alt="" width="50px" height="66px" />
+              <Image
+                src="/images/grocery.png"
+                alt=""
+                width="50px"
+                height="66px"
+              />
               <p>Grocery Store</p>
             </BusinessIcon>
             <BusinessIcon className="c">
-              <Image src="/Canteen.png" alt="" width="66px" height="66px" />
+              <Image
+                src="/images//Canteen.png"
+                alt=""
+                width="66px"
+                height="66px"
+              />
               <p>Canteen</p>
             </BusinessIcon>
 
             <BusinessIcon className="d">
-              <Image src="/Cafe.png" alt="" width="60px" height="66px" />
+              <Image src="/images/Cafe.png" alt="" width="60px" height="66px" />
               <p>Cafe</p>
             </BusinessIcon>
             <BusinessIcon className="e">
-              <Image src="/Salons.png" alt="" width="55px" height="66px" />
+              <Image
+                src="/images/Salons.png"
+                alt=""
+                width="55px"
+                height="66px"
+              />
               <p>Salons</p>
             </BusinessIcon>
             <BusinessIcon className="f">
-              <Image src="/mobile.png" alt="" width="50px" height="66px" />
+              <Image
+                src="/images/mobile.png"
+                alt=""
+                width="50px"
+                height="66px"
+              />
               <p>Mobile Store</p>
             </BusinessIcon>
 
             <BusinessIcon className="g">
-              <Image src="/more.png" alt="" width="66px" height="66px" />
+              <Image src="/images/more.png" alt="" width="66px" height="66px" />
               <p>And More</p>
             </BusinessIcon>
           </BusinessBodyLeft>
 
           <BusinessBodyRight>
-            <Image src="/infograph.png" alt="" width="570px" height="300px" />
+            <Image
+              src="/images/infograph.png"
+              alt=""
+              width="570px"
+              height="300px"
+            />
           </BusinessBodyRight>
         </BusinessBody>
       </div>

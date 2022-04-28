@@ -6,7 +6,6 @@ export const VideosCarousel = styled.div`
 export const VideosContainer = styled.div`
   width: 100%;
   padding: 0 15px;
-  margin: 0 15px;
 
   h3 {
     text-align: center;

@@ -15,7 +15,12 @@ const Navbar = () => {
       <Left>
         <Link href="/" passHref>
           <LogoLink>
-            <Image src="/logo.svg" alt="" width="150px" height="41.047px" />
+            <Image
+              src="/images/logo.svg"
+              alt=""
+              width="150px"
+              height="41.047px"
+            />
           </LogoLink>
         </Link>
       </Left>

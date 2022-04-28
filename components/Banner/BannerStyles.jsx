@@ -12,7 +12,7 @@ export const BannerContainer = styled.div`
 export const BannerLeft = styled.div`
   flex: 0 0 50%;
   min-width: 50%;
-  background-image: url('/banner.png');
+  background-image: url('/images/banner.png');
   background-size: cover;
 `
 

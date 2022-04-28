@@ -20,7 +20,7 @@ const Footer = () => {
               <Link href="/">
                 <a>
                   <Image
-                    src="/logo.svg"
+                    src="/images/logo.svg"
                     alt=""
                     width="150px"
                     height="41.047px"
@@ -30,8 +30,18 @@ const Footer = () => {
             </div>
 
             <FooterDownloads>
-              <Image src="/google.png" alt="" width="150px" height="41.047px" />
-              <Image src="/apple.png" alt="" width="150px" height="41.047px" />
+              <Image
+                src="/images/google.png"
+                alt=""
+                width="150px"
+                height="41.047px"
+              />
+              <Image
+                src="/images/apple.png"
+                alt=""
+                width="150px"
+                height="41.047px"
+              />
             </FooterDownloads>
           </ul>
         </FooterLeft>

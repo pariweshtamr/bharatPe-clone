@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const SignupContainer = styled.div`
   background: linear-gradient(259deg, #00afcb, #00d8e7 51%, #00afcb);
   background-repeat: no-repeat;
+
   display: flex;
   align-items: center;
   color: #fff;
@@ -11,6 +12,7 @@ export const SignupContainer = styled.div`
 
 export const Left = styled.div`
   width: 50%;
+  padding: 7px 0;
   display: flex;
   justify-content: center;
   align-items: center;
