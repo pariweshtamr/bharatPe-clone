@@ -7,7 +7,6 @@ export const FooterContainer = styled.footer`
   font-size: 14px;
   background-image: linear-gradient(to bottom, #fdfdff, #fbfbfd);
   overflow: hidden;
-  display: block;
 `
 
 export const FooterContents = styled.div`
@@ -36,6 +35,10 @@ export const FooterContent = styled.div`
     color: #8d8b97;
     font-weight: 300;
 
+    &:hover {
+      color: #111;
+    }
+
     span {
       margin-left: 10px;
 
@@ -49,6 +52,6 @@ export const FooterContent = styled.div`
 export const FooterDownloads = styled.div`
   display: flex;
   gap: 5px;
-  padding: 30px 0;
+  padding: 30px 0px;
   cursor: pointer;
 `
