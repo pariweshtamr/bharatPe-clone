@@ -1,17 +1,20 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import {
   FooterContainer,
   FooterContent,
   FooterContents,
   FooterDownloads,
+  FooterLeft,
 } from './FooterStyles'
 
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterContents>
-        <FooterContent>
+        <FooterLeft>
           <ul>
             <div>
               <Link href="/">
@@ -31,7 +34,7 @@ const Footer = () => {
               <Image src="/apple.png" alt="" width="150px" height="41.047px" />
             </FooterDownloads>
           </ul>
-        </FooterContent>
+        </FooterLeft>
 
         <FooterContent>
           <ul>
@@ -63,10 +66,34 @@ const Footer = () => {
         <FooterContent>
           <ul>
             <h3>FOLLOW US</h3>
-            <p>Linkedin</p>
-            <p>Facebook</p>
-            <p>Instagram</p>
-            <p>Twitter</p>
+            <p>
+              <FontAwesomeIcon
+                icon={['fab', 'linkedin']}
+                style={{ fontSize: '15px' }}
+              />
+              <span> Linkedin</span>
+            </p>
+            <p>
+              <FontAwesomeIcon
+                icon={['fab', 'facebook-square']}
+                style={{ fontSize: '15px' }}
+              />
+              <span>Facebook</span>
+            </p>
+            <p>
+              <FontAwesomeIcon
+                icon={['fab', 'instagram-square']}
+                style={{ fontSize: '15px' }}
+              />
+              <span>Instagram</span>
+            </p>
+            <p>
+              <FontAwesomeIcon
+                icon={['fab', 'twitter']}
+                style={{ fontSize: '15px' }}
+              />
+              <span>Twitter</span>
+            </p>
           </ul>
         </FooterContent>
       </FooterContents>
