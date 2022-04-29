@@ -6,7 +6,6 @@ export const NavContainer = styled.nav`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0 3rem;
 `
 
 export const LogoLink = styled.a``

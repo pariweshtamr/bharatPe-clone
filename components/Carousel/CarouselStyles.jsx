@@ -5,9 +5,9 @@ export const CarouselItem = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0 3rem;
   padding-top: -5rem;
   padding-bottom: 3rem;
+  margin-bottom: 1rem;
 `
 export const CarouselItems = styled.div`
   margin: 0;
@@ -16,13 +16,13 @@ export const CarouselItems = styled.div`
 
 export const CarouselItemLeft = styled.div`
   display: flex;
-  flex: 1;
   flex-direction: column;
   padding-top: 2rem;
   gap: 1.5rem;
   h1 {
-    font-size: 46px;
-    font-weight: 700;
+    font-size: 43px;
+    font-weight: 800;
+    padding: 0;
   }
   p {
     font-size: 26px;
@@ -34,7 +34,7 @@ export const CarouselItemLeft = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    font-size: 24px;
+    font-size: 22px;
     list-style: none;
     position: relative;
     margin: 0;
@@ -75,7 +75,6 @@ export const CarouselButtons = styled.div`
 `
 
 export const CarouselItemRight = styled.div`
-  flex: 1;
   max-height: 635px;
   max-width: 100%;
 `

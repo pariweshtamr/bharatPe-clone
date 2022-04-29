@@ -20,7 +20,7 @@ export const VideosContainer = styled.div`
 export const VideosHr = styled.hr`
   margin: 0.5rem auto;
   margin-bottom: 1rem;
-  width: 30px;
+  width: 35px;
   height: 6px !important;
   background: #00afcb;
   border-radius: 4px;

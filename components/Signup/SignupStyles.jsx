@@ -38,6 +38,7 @@ export const SignupButton = styled.a`
   font-weight: 500;
   font-size: 16px;
   border: none;
+  text-decoration: none;
 
   display: flex;
   align-items: center;

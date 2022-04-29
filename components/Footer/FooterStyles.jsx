@@ -24,6 +24,8 @@ export const FooterContent = styled.div`
   h3 {
     cursor: default;
     margin-bottom: 1.5rem;
+    font-size: 16px;
+    font-weight: 700;
   }
   ul {
     margin-bottom: 1rem;

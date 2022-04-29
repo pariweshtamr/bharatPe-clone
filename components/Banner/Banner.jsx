@@ -9,9 +9,11 @@ import {
 const Banner = () => {
   return (
     <BannerContainer>
-      <BannerLeft></BannerLeft>
+      <BannerLeft className="col-lg-6 col-md-6 col-sm-12">
+        <Image src="/images/banner.png" alt="" width="800px" height="610px" />
+      </BannerLeft>
 
-      <BannerRight>
+      <BannerRight className="col-lg-6 col-md-6 col-sm-12">
         <h2>
           Make BharatPe your growth <br /> partner today
         </h2>

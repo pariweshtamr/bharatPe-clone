@@ -1,5 +1,6 @@
 import Head from 'next/Head'
 import AllInOne from '../components/AllInOne/AllInOne'
+import AppHighlights from '../components/AppHighlights/AppHighlights'
 import Banner from '../components/Banner/Banner'
 import Business from '../components/Business/Business'
 import Carousel from '../components/Carousel/Carousel'
@@ -24,6 +25,7 @@ export default function Home() {
       <Carousel />
       <EasyPayments />
       <AllInOne />
+      <AppHighlights />
       <Business />
       <Banner />
       <Videos />

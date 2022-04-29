@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const BusinessContainer = styled.div`
   padding: 90px 0 0 0;
+  background-image: linear-gradient(to bottom, #fdfdff, #fbfbfd);
   display: block;
 
   div {
@@ -22,10 +23,9 @@ export const BusinessHeader = styled.div`
     font-size: 40px;
     font-weight: 700;
     color: #1d1d1b;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
   }
   h3 {
-    margin-top: -0.5rem;
     font-size: 22px;
     font-weight: 300;
     color: #8d8b97;
@@ -33,7 +33,6 @@ export const BusinessHeader = styled.div`
 
   p {
     color: #8d8b97;
-    margin-top: -0.5rem;
     font-weight: 300;
     font-size: 17 px;
   }

@@ -13,7 +13,7 @@ import {
 const Navbar = () => {
   return (
     <>
-      <NavContainer>
+      <NavContainer className="container">
         <Left>
           <Link href="/" passHref>
             <LogoLink>
