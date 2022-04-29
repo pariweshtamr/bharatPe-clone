@@ -1,8 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/Head'
 import Banner from '../components/Banner/Banner'
 import Business from '../components/Business/Business'
-import Footer from '../components/Footer/Footer'
-import Navbar from '../components/Navbar/Navbar'
+import Carousel from '../components/Carousel/Carousel'
 import Signup from '../components/Signup/Signup'
 import Videos from '../components/Videos/Videos'
 
@@ -20,6 +19,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
+      <Carousel />
       <Business />
       <Banner />
       <Videos />

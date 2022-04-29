@@ -44,7 +44,7 @@ const Business = () => {
             </BusinessIcon>
             <BusinessIcon className="c">
               <Image
-                src="/images//Canteen.png"
+                src="/images/canteen.png"
                 alt=""
                 width="66px"
                 height="66px"
@@ -53,12 +53,12 @@ const Business = () => {
             </BusinessIcon>
 
             <BusinessIcon className="d">
-              <Image src="/images/Cafe.png" alt="" width="60px" height="66px" />
+              <Image src="/images/cafe.png" alt="" width="60px" height="66px" />
               <p>Cafe</p>
             </BusinessIcon>
             <BusinessIcon className="e">
               <Image
-                src="/images/Salons.png"
+                src="/images/salons.png"
                 alt=""
                 width="55px"
                 height="66px"

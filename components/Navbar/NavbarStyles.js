@@ -15,6 +15,7 @@ export const StyledLink = styled.a`
   color: #585371;
   font-weight: 500;
   letter-spacing: -1px;
+  text-decoration: none;
 
   &:hover {
     color: #00afcb;
@@ -23,7 +24,7 @@ export const StyledLink = styled.a`
 export const Left = styled.nav``
 
 export const Right = styled.nav`
-  font-size: 14px;
+  font-size: 15px;
 `
 
 export const NavLoginButton = styled.button`
@@ -35,4 +36,8 @@ export const NavLoginButton = styled.button`
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
+`
+export const NavHr = styled.hr`
+  background-color: lightgray;
+  margin: 0;
 `

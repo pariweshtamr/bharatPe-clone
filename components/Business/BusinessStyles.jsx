@@ -60,12 +60,12 @@ export const BusinessBody = styled.div`
 
 export const BusinessBodyLeft = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 141px);
   place-items: center;
+  justify-content: flex-end;
   max-width: 50%;
   margin: 60px 0 46px 0px;
-  grid-row-gap: 1rem;
   grid-template-areas:
     'a b c'
     'd e f'
