@@ -7,7 +7,6 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import Layout from '../components/Layout/Layout'
 import { useEffect } from 'react'
-import Head from 'next/head'
 
 library.add(fas, fab)
 

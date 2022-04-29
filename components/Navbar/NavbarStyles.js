@@ -39,5 +39,5 @@ export const NavLoginButton = styled.button`
 `
 export const NavHr = styled.hr`
   background-color: lightgray;
-  margin: 0;
+  margin: 6px;
 `

@@ -7,18 +7,21 @@ export const VideosContainer = styled.div`
   width: 100%;
   padding: 0 15px;
 
-  h3 {
+  h4 {
     text-align: center;
-    font-size: 36px;
     line-height: 1.2;
-    margin-bottom: 0.5rem;
+    font-size: 40px;
+    font-weight: 800;
+    color: #1d1d1b;
+    margin-bottom: 1rem;
   }
 `
 
 export const VideosHr = styled.hr`
-  margin: 1rem auto;
+  margin: 0.5rem auto;
+  margin-bottom: 1rem;
   width: 30px;
-  height: 6px;
+  height: 6px !important;
   background: #00afcb;
-  border: none;
+  border-radius: 4px;
 `

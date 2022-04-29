@@ -18,10 +18,10 @@ export const CarouselItemLeft = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding-top: 5rem;
+  padding-top: 2rem;
   gap: 1.5rem;
   h1 {
-    font-size: 48px;
+    font-size: 46px;
     font-weight: 700;
   }
   p {
@@ -33,8 +33,13 @@ export const CarouselItemLeft = styled.div`
   ul {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    font-size: 26px;
+    gap: 0.5rem;
+    font-size: 24px;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem;
   }
 `
 export const SlideButtons = styled.div`
@@ -46,6 +51,11 @@ export const SlideButtons = styled.div`
   &:nth-child(2) {
     margin-right: 10px;
   }
+`
+
+export const ListArrow = styled.span`
+  color: #00afcb;
+  margin-right: 1.5rem;
 `
 
 export const CarouselButtons = styled.div`
@@ -68,7 +78,6 @@ export const CarouselItemRight = styled.div`
   flex: 1;
   max-height: 635px;
   max-width: 100%;
-  margin-top: 30px;
 `
 
 export const SliderTabs = styled.div``

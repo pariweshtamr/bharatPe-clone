@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background: #fbfbfd;
 }
 
@@ -13,4 +13,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+hr {
+  border-top: none;
+  opacity: 10 !important;
 }

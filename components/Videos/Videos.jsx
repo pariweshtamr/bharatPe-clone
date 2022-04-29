@@ -4,7 +4,7 @@ const Videos = () => {
   return (
     <VideosCarousel>
       <VideosContainer>
-        <h3>Watch Now</h3>
+        <h4>Watch Now</h4>
 
         <VideosHr />
       </VideosContainer>

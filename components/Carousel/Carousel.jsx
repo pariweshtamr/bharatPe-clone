@@ -5,6 +5,7 @@ import {
   CarouselItemLeft,
   CarouselItemRight,
   CarouselItems,
+  ListArrow,
   SlideButtons,
 } from './CarouselStyles'
 import Image from 'next/image'
@@ -58,8 +59,8 @@ const Carousel = () => {
               </h1>
 
               <p>
-                Accept payments from any app for FREE & take loans whenever you
-                need!
+                Accept payments from any app for <br /> FREE & take loans
+                whenever you need!
               </p>
 
               <SlideButtons>
@@ -95,12 +96,15 @@ const Carousel = () => {
 
               <ul>
                 <li>
+                  <ListArrow>‣</ListArrow>
                   <span>0%</span> transaction fee
                 </li>
                 <li>
+                  <ListArrow>‣</ListArrow>
                   <span>No Rental</span>
                 </li>
                 <li>
+                  <ListArrow>‣</ListArrow>
                   <span>Receipts</span> for Card & QR Txns.
                 </li>
               </ul>
@@ -145,12 +149,15 @@ const Carousel = () => {
               </h1>
               <ul>
                 <li>
+                  <ListArrow>‣</ListArrow>
                   <span>1.75-2.5%</span> Rate of Interest
                 </li>
                 <li>
+                  <ListArrow>‣</ListArrow>
                   <span>Instant</span> Loan Approval
                 </li>
                 <li>
+                  <ListArrow>‣</ListArrow>
                   Repay in <span>Daily Instalments</span>
                 </li>
               </ul>
@@ -183,12 +190,14 @@ const Carousel = () => {
               <h1>BharatPe Credit Program for Distributors</h1>
               <ul>
                 <li>
-                  <span> 100% Collateral Free</span>
+                  <ListArrow>‣</ListArrow> <span> 100% Collateral Free</span>
                 </li>
                 <li>
+                  <ListArrow>‣</ListArrow>
                   <span>Lowest Cost of Trade Credit</span>
                 </li>
                 <li>
+                  <ListArrow>‣</ListArrow>
                   <span> Minimum Documentation & No Visit Required</span>
                 </li>
               </ul>

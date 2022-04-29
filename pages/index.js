@@ -1,7 +1,9 @@
 import Head from 'next/Head'
+import AllInOne from '../components/AllInOne/AllInOne'
 import Banner from '../components/Banner/Banner'
 import Business from '../components/Business/Business'
 import Carousel from '../components/Carousel/Carousel'
+import EasyPayments from '../components/EasyPayments/EasyPayments'
 import Signup from '../components/Signup/Signup'
 import Videos from '../components/Videos/Videos'
 
@@ -15,11 +17,13 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
       </Head>
       <Carousel />
+      <EasyPayments />
+      <AllInOne />
       <Business />
       <Banner />
       <Videos />

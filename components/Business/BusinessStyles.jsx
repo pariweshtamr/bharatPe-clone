@@ -19,14 +19,14 @@ export const BusinessHeader = styled.div`
   text-align: center;
 
   h4 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
     color: #1d1d1b;
     margin-bottom: 1rem;
   }
   h3 {
     margin-top: -0.5rem;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 300;
     color: #8d8b97;
   }
@@ -39,18 +39,18 @@ export const BusinessHeader = styled.div`
   }
   span {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     color: #1d1d1b;
   }
 `
 
 export const BusinessHr = styled.hr`
-  margin: 0 auto;
+  margin: 0.5rem auto;
   margin-bottom: 1rem;
-  width: 30px;
-  height: 6px;
+  width: 35px;
+  height: 6px !important;
   background: #00afcb;
-  border: none;
+  border-radius: 4px;
 `
 
 export const BusinessBody = styled.div`
