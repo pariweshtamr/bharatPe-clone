@@ -13,7 +13,7 @@ import {
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterContents>
+      <FooterContents className="container">
         <FooterLeft>
           <ul>
             <div>

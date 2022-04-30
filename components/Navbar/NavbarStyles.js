@@ -1,12 +1,23 @@
 import styled from 'styled-components'
 
+export const Nav = styled.div`
+  position: fixed;
+  top: 0;
+  height: 90px;
+  width: 100%;
+  z-index: 999;
+  background: #fbfbfd;
+`
+
 export const NavContainer = styled.nav`
-  height: 82px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 `
+
+export const NavContent = styled.div``
 
 export const LogoLink = styled.a``
 export const StyledLink = styled.a`
@@ -38,5 +49,5 @@ export const NavLoginButton = styled.button`
 `
 export const NavHr = styled.hr`
   background-color: lightgray;
-  margin: 6px;
+  margin: 0;
 `

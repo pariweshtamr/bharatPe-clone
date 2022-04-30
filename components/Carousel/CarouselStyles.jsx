@@ -14,6 +14,11 @@ export const CarouselItems = styled.div`
   padding: 0;
 `
 
+export const Downloads = styled.div`
+  display: flex;
+  gap: 0.5rem;
+`
+
 export const CarouselItemLeft = styled.div`
   display: flex;
   flex-direction: column;

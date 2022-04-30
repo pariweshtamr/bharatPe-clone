@@ -22,14 +22,16 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <Carousel />
-      <EasyPayments />
-      <AllInOne />
-      <AppHighlights />
-      <Business />
-      <Banner />
-      <Videos />
-      <Signup />
+      <div className="main">
+        <Carousel />
+        <EasyPayments />
+        <AllInOne />
+        <AppHighlights />
+        <Business />
+        <Banner />
+        <Videos />
+        <Signup />
+      </div>
     </>
   )
 }

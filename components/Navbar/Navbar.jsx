@@ -8,46 +8,49 @@ import {
   StyledLink,
   NavLoginButton,
   NavHr,
+  Nav,
 } from './NavbarStyles'
 
 const Navbar = () => {
   return (
     <>
-      <NavContainer className="container">
-        <Left>
-          <Link href="/" passHref>
-            <LogoLink>
-              <Image
-                src="/images/logo.svg"
-                alt=""
-                width="150px"
-                height="41.047px"
-              />
-            </LogoLink>
-          </Link>
-        </Left>
+      <Nav>
+        <NavContainer className="container">
+          <Left>
+            <Link href="/" passHref>
+              <LogoLink>
+                <Image
+                  src="/images/logo.svg"
+                  alt=""
+                  width="150px"
+                  height="41.047px"
+                />
+              </LogoLink>
+            </Link>
+          </Left>
 
-        <Right>
-          <Link href="/" passHref>
-            <StyledLink>About Us</StyledLink>
-          </Link>
-          <Link href="/" passHref>
-            <StyledLink>Business Solution</StyledLink>
-          </Link>
-          <Link href="/" passHref>
-            <StyledLink>Careers</StyledLink>
-          </Link>
-          <Link href="/" passHref>
-            <StyledLink>Blog</StyledLink>
-          </Link>
-          <Link href="/" passHref>
-            <StyledLink>Contact Us</StyledLink>
-          </Link>
+          <Right>
+            <Link href="/" passHref>
+              <StyledLink>About Us</StyledLink>
+            </Link>
+            <Link href="/" passHref>
+              <StyledLink>Business Solution</StyledLink>
+            </Link>
+            <Link href="/" passHref>
+              <StyledLink>Careers</StyledLink>
+            </Link>
+            <Link href="/" passHref>
+              <StyledLink>Blog</StyledLink>
+            </Link>
+            <Link href="/" passHref>
+              <StyledLink>Contact Us</StyledLink>
+            </Link>
 
-          <NavLoginButton>Login</NavLoginButton>
-        </Right>
-      </NavContainer>
-      <NavHr />
+            <NavLoginButton>Login</NavLoginButton>
+          </Right>
+        </NavContainer>
+        <NavHr />
+      </Nav>
     </>
   )
 }

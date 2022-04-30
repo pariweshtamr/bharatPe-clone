@@ -5,13 +5,15 @@ export const SignupContainer = styled.div`
   background-repeat: no-repeat;
 
   display: flex;
-  align-items: center;
   color: #fff;
   width: 100%;
 `
 
+export const SignupContent = styled.div`
+  display: flex;
+`
+
 export const Left = styled.div`
-  width: 50%;
   padding: 7px 0;
   display: flex;
   justify-content: center;
@@ -19,13 +21,14 @@ export const Left = styled.div`
 `
 
 export const Right = styled.div`
-  width: 50%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   h3 {
     margin-bottom: 2rem;
     color: #fff;
-    font-weight: 500;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 24px;
   }
 `
 

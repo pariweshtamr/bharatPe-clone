@@ -3,18 +3,25 @@ import styled from 'styled-components'
 export const BannerContainer = styled.div`
   width: 100%;
   background: linear-gradient(250deg, #00afcb, #00d8e7, #00afcb);
-  height: 100%;
+  min-height: 100%;
   background-repeat: no-repeat;
 
   display: flex;
   flex-flow: row wrap;
   align-items: center;
 `
-
+export const BannerContent = styled.div`
+  display: flex;
+  padding: 0;
+`
 export const BannerLeft = styled.div`
   padding: 0;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
 `
 
 export const BannerRight = styled.div`

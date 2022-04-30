@@ -5,6 +5,7 @@ import {
   CarouselItemLeft,
   CarouselItemRight,
   CarouselItems,
+  Downloads,
   ListArrow,
   SlideButtons,
 } from './CarouselStyles'
@@ -66,18 +67,20 @@ const Carousel = () => {
 
                   <SlideButtons>
                     <h5>Download the App</h5>
-                    <Image
-                      src="/images/google.png"
-                      alt=""
-                      width="168px"
-                      height="50px"
-                    />
-                    <Image
-                      src="/images/apple.png"
-                      alt=""
-                      width="168px"
-                      height="50px"
-                    />
+                    <Downloads>
+                      <Image
+                        src="/images/google.png"
+                        alt=""
+                        width="168px"
+                        height="50px"
+                      />
+                      <Image
+                        src="/images/apple.png"
+                        alt=""
+                        width="168px"
+                        height="50px"
+                      />
+                    </Downloads>
                   </SlideButtons>
                 </CarouselItemLeft>
 

@@ -17,5 +17,9 @@ a {
 
 hr {
   border-top: none;
-  opacity: 10 !important;
+  opacity: 0.4 !important;
+}
+
+.main {
+  margin-top: 95px;
 }
