@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const AllInOneContainer = styled.div`
   padding: 20px 0 0 0;
+  margin-bottom: -8rem;
 `
 
 export const AllInOneHeader = styled.div`
@@ -28,7 +29,7 @@ export const AllInOneContent = styled.div`
   width: 95%;
   margin: auto;
   padding-top: 1.5rem;
-  background-image: linear-gradient(to bottom, #fdfdff, #fbfbfd);
+  background: #fcfcfe;
   position: relative;
 `
 

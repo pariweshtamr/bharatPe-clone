@@ -16,8 +16,8 @@ import Image from 'next/image'
 
 const AppHighlights = () => {
   return (
-    <HighlightsContainer className="container">
-      <HighlightsContent>
+    <HighlightsContainer>
+      <HighlightsContent className="container">
         <HighlightsHeader>
           <h4>App Highlights</h4>
         </HighlightsHeader>

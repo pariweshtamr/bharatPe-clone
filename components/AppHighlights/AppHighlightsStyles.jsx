@@ -1,10 +1,13 @@
 import styled from 'styled-components'
 
-export const HighlightsContainer = styled.div``
+export const HighlightsContainer = styled.div`
+  background: #fff;
+`
 
 export const HighlightsHeader = styled.div`
   max-width: 100%;
   text-align: center;
+  padding-top: 5rem;
 
   h4 {
     font-size: 40px;

@@ -9,6 +9,25 @@ export const EasyPaymentsContainer = styled.div`
   align-items: center;
 `
 
+export const MarqueeItems = styled.div`
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+`
+export const MarqueeItem = styled.div`
+  margin: 0 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+  &:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+`
+
 export const PaymentsHeader = styled.div`
   max-width: 100%;
   text-align: center;

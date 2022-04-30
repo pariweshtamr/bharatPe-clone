@@ -27,13 +27,13 @@ export const BusinessHeader = styled.div`
   }
   h3 {
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
     color: #8d8b97;
   }
 
   p {
     color: #8d8b97;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 17 px;
   }
   span {

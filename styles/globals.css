@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  background: #fbfbfd;
+  background: #fbfbfd !important;
 }
 
 a {
@@ -17,7 +17,7 @@ a {
 
 hr {
   border-top: none;
-  opacity: 0.4 !important;
+  opacity: 10 !important;
 }
 
 .main {
