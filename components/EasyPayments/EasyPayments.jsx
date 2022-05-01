@@ -17,7 +17,7 @@ const EasyPayments = () => {
       </PaymentsHeader>
       <PaymentsHr />
 
-      <Marquee speed="90">
+      <Marquee speed="60">
         <MarqueeItems>
           <MarqueeItem>
             <Image

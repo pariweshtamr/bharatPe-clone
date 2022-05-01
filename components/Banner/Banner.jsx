@@ -12,7 +12,7 @@ const Banner = () => {
     <BannerContainer>
       <BannerContent className="container-fluid">
         <BannerLeft className="col-lg-6 col-md-6 col-sm-12">
-          <Image src="/images/banner.png" alt="" width="800px" height="610px" />
+          <img src="/images/banner.png" alt="" />
         </BannerLeft>
 
         <BannerRight className="col-lg-6 col-md-6 col-sm-12">

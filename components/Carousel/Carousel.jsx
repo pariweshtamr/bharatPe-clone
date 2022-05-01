@@ -179,18 +179,20 @@ const Carousel = () => {
                   </ul>
                   <SlideButtons>
                     <h5>Download the App</h5>
-                    <Image
-                      src="/images/google.png"
-                      alt=""
-                      width="168px"
-                      height="50px"
-                    />
-                    <Image
-                      src="/images/apple.png"
-                      alt=""
-                      width="168px"
-                      height="50px"
-                    />
+                    <Downloads>
+                      <Image
+                        src="/images/google.png"
+                        alt=""
+                        width="168px"
+                        height="50px"
+                      />
+                      <Image
+                        src="/images/apple.png"
+                        alt=""
+                        width="168px"
+                        height="50px"
+                      />
+                    </Downloads>
                   </SlideButtons>
                 </CarouselItemLeft>
 

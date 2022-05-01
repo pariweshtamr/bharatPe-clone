@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const VideosCarousel = styled.div`
-  padding: 100px 0 40px 0;
+  padding: 90px 0 40px 0;
 `
 export const VideosContainer = styled.div`
   width: 100%;
@@ -24,4 +24,37 @@ export const VideosHr = styled.hr`
   height: 6px !important;
   background: #00afcb;
   border-radius: 4px;
+`
+
+export const VideosCarouselItems = styled.div``
+
+export const VidContent = styled.div`
+  text-align: center;
+`
+
+export const PrevButton = styled.div`
+  .carousel-control-prev-icon {
+    margin-right: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+  }
+`
+
+export const NextButton = styled.div`
+  span {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+`
+
+export const CarouselIndicators = styled.div`
+  button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background-color: #00afcb !important;
+    margin-bottom: -40px;
+  }
 `

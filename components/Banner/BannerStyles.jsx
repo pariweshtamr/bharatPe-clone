@@ -22,6 +22,10 @@ export const BannerLeft = styled.div`
   justify-content: center;
   align-items: center;
   object-fit: cover;
+
+  img {
+    width: 100%;
+  }
 `
 
 export const BannerRight = styled.div`
