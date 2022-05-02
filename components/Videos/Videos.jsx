@@ -27,7 +27,7 @@ const Videos = () => {
 
         <div
           id="videoCarouselIndicators"
-          className="carousel slide container p-4"
+          className="carousel slide container-fluid pb-4"
           data-bs-ride="carousel"
         >
           <CarouselIndicators className="carousel-indicators">

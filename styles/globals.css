@@ -23,3 +23,23 @@ hr {
 .main {
   margin-top: 95px;
 }
+
+.nav-item {
+  margin-right: 1.5rem;
+}
+
+.sidebar {
+  width: 12.5rem;
+  background: #fbfbfd;
+  position: absolute;
+  top: 13vh;
+  left: -100%;
+  min-height: 100vh;
+  z-index: 999;
+  transition: 0.3s all ease-in-out;
+  backdrop-filter: grayscale(30%);
+}
+
+.sidebar.active {
+  left: 0;
+}

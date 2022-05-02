@@ -33,14 +33,14 @@ const Footer = () => {
               <Image
                 src="/images/google.png"
                 alt=""
-                width="150px"
-                height="41.047px"
+                width="140px"
+                height="40px"
               />
               <Image
                 src="/images/apple.png"
                 alt=""
-                width="150px"
-                height="41.047px"
+                width="140px"
+                height="40px"
               />
             </FooterDownloads>
           </ul>

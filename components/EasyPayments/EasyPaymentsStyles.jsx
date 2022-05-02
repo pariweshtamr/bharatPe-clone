@@ -42,7 +42,6 @@ export const PaymentsHeader = styled.div`
 
 export const PaymentsHr = styled.hr`
   margin: 0.5rem auto;
-  margin-bottom: 1rem;
   width: 35px;
   height: 6px !important;
   background: #00afcb !important;
@@ -51,6 +50,5 @@ export const PaymentsHr = styled.hr`
 
 export const PaymentsTag = styled.p`
   letter-spacing: -1px;
-  margin: 1rem;
   font-size: 14px;
 `

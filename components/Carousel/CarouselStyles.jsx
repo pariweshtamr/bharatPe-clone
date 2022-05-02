@@ -46,6 +46,11 @@ export const CarouselItemLeft = styled.div`
     padding: 0;
     margin-bottom: 2rem;
   }
+  @media screen and (max-width: 767px) {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 `
 export const SlideButtons = styled.div`
   margin-top: 3rem;
