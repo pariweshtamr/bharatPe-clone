@@ -7,6 +7,7 @@ export const EasyPaymentsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 `
 
 export const MarqueeItems = styled.div`

@@ -20,7 +20,7 @@ const Videos = () => {
   }
   return (
     <VideosCarousel>
-      <VideosContainer>
+      <VideosContainer className="container">
         <h4>Watch Now</h4>
 
         <VideosHr />

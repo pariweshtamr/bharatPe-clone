@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   background: #fbfbfd !important;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -32,14 +34,18 @@ hr {
   width: 12.5rem;
   background: #fbfbfd;
   position: absolute;
-  top: 13vh;
-  left: -100%;
-  min-height: 100vh;
+  right: -100%;
+  min-height: 87vh;
   z-index: 999;
-  transition: 0.3s all ease-in-out;
-  backdrop-filter: grayscale(30%);
+  transition: 0.2s all ease-in-out;
 }
 
 .sidebar.active {
-  left: 0;
+  right: 0;
+  top: 13vh;
+  /* -moz-box-shadow: 0 0 0px 1000px rgba(38, 52, 75, 0.8);
+  -khtml-box-shadow: 0 0 0px 1000px rgba(38, 52, 75, 0.8);
+  -webkit-box-shadow: 0 0 0px 1000px rgba(38, 52, 75, 0.8); */
+  box-shadow: 0px 2200px 0px 2200px rgba(38, 52, 75, 0.8);
+  transition: 0.2s all;
 }
