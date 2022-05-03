@@ -86,10 +86,12 @@ const Carousel = () => {
                 </CarouselItemLeft>
 
                 <CarouselItemRight className="col-12 col-sm-12 col-md-6 col-lg-6">
-                  <img
+                  <Image
                     src="/images/1.png"
                     className="d-block w-100"
                     alt="..."
+                    width="585px"
+                    height="576px"
                   />
                 </CarouselItemRight>
               </CarouselItem>
@@ -122,10 +124,12 @@ const Carousel = () => {
                 </CarouselItemLeft>
 
                 <CarouselItemRight className="col-12 col-sm-12 col-md-6 col-lg-6">
-                  <img
+                  <Image
                     src="/images/2.png"
                     className="d-block w-100"
                     alt="..."
+                    width="585px"
+                    height="576px"
                   />
                 </CarouselItemRight>
               </CarouselItem>
@@ -149,10 +153,12 @@ const Carousel = () => {
                 </CarouselItemLeft>
 
                 <CarouselItemRight className="col-12 col-sm-12 col-md-6 col-lg-6">
-                  <img
+                  <Image
                     src="/images/3.png"
                     className="d-block w-100"
                     alt="..."
+                    width="585px"
+                    height="576px"
                   />
                 </CarouselItemRight>
               </CarouselItem>
@@ -198,10 +204,12 @@ const Carousel = () => {
                 </CarouselItemLeft>
 
                 <CarouselItemRight className="col-12 col-sm-12 col-md-6 col-lg-6">
-                  <img
+                  <Image
                     src="/images/4.png"
                     className="d-block w-100"
                     alt="..."
+                    width="585px"
+                    height="576px"
                   />
                 </CarouselItemRight>
               </CarouselItem>
@@ -229,10 +237,12 @@ const Carousel = () => {
                 </CarouselItemLeft>
 
                 <CarouselItemRight className="col-12 col-sm-12 col-md-6 col-lg-6">
-                  <img
+                  <Image
                     src="/images/5.png"
                     className="d-block w-100"
                     alt="..."
+                    width="585px"
+                    height="600px"
                   />
                 </CarouselItemRight>
               </CarouselItem>

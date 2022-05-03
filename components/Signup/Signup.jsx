@@ -25,7 +25,7 @@ const Signup = () => {
         <Right className="col-lg-6 col-md-6 col-12">
           <h3>Start accepting any payment app in 2 minutes!</h3>
 
-          <Link href="/">
+          <Link href="/" passHref>
             <SignupButton>Sign Up Now!</SignupButton>
           </Link>
         </Right>
