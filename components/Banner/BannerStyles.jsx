@@ -13,6 +13,9 @@ export const BannerContainer = styled.div`
 export const BannerContent = styled.div`
   display: flex;
   padding: 0;
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
 `
 export const BannerLeft = styled.div`
   padding: 0;
@@ -25,6 +28,10 @@ export const BannerLeft = styled.div`
 
   img {
     width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex: 1;
   }
 `
 
@@ -44,6 +51,17 @@ export const BannerRight = styled.div`
     font-size: 22px;
     margin-left: 1rem;
   }
+  @media screen and (max-width: 768px) {
+    gap: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    h2 {
+      font-size: 18px;
+    }
+    h4 {
+      font-size: 14px;
+    }
+  }
 `
 
 export const BannerDownloads = styled.div`
@@ -51,4 +69,9 @@ export const BannerDownloads = styled.div`
   gap: 10px;
   cursor: pointer;
   margin-left: 1rem;
+  @media screen and (max-width: 768px) {
+    gap: 3px;
+    margin: 0 auto;
+    margin-bottom: 1.8rem;
+  }
 `

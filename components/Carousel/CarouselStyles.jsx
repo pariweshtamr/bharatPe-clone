@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+export const CarouselContainer = styled.div``
+
 export const CarouselItem = styled.div`
   display: flex !important;
   justify-content: center;
@@ -8,6 +10,9 @@ export const CarouselItem = styled.div`
   padding-top: -5rem;
   padding-bottom: 3rem;
   margin-bottom: 1rem;
+  @media screen and (max-width: 767px) {
+    margin: 0;
+  }
 `
 export const CarouselItems = styled.div`
   margin: 0;
@@ -50,6 +55,16 @@ export const CarouselItemLeft = styled.div`
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 20px;
+    }
+    ul {
+      font-size: 18px;
+    }
   }
 `
 export const SlideButtons = styled.div`
@@ -87,6 +102,12 @@ export const CarouselButtons = styled.div`
 export const CarouselItemRight = styled.div`
   max-height: 635px;
   max-width: 100%;
+  @media screen and (max-width: 767px) {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
 `
 
 export const SliderTabs = styled.div``

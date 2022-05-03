@@ -24,22 +24,34 @@ export const BusinessHeader = styled.div`
     font-weight: 700;
     color: #1d1d1b;
     margin-bottom: 0.8rem;
+    @media screen and (max-width: 767px) {
+      font-size: 30px;
+    }
   }
   h3 {
     font-size: 22px;
     font-weight: 400;
     color: #8d8b97;
+    @media screen and (max-width: 767px) {
+      font-size: 18px;
+    }
   }
 
   p {
     color: #8d8b97;
     font-weight: 400;
     font-size: 17 px;
+    @media screen and (max-width: 767px) {
+      font-size: 16px;
+    }
   }
   span {
     font-weight: 700;
     font-size: 22px;
     color: #1d1d1b;
+    @media screen and (max-width: 767px) {
+      font-size: 18px;
+    }
   }
 `
 
@@ -91,6 +103,12 @@ export const BusinessBodyLeft = styled.div`
   .g {
     grid-area: g;
   }
+  @media screen and (max-width: 767px) {
+    max-width: 100%;
+    justify-content: center;
+    grid-template-columns: repeat(3, 130px);
+    grid-template-rows: repeat(3, 141px);
+  }
 `
 
 export const BusinessIcon = styled.div`
@@ -103,6 +121,9 @@ export const BusinessIcon = styled.div`
   }
 `
 export const BusinessBodyRight = styled.div`
-  flex: 0 0 50%;
+  flex: 1;
   margin: auto;
+  @media screen and (max-width: 767px) {
+    margin: 0 0 35px 0;
+  }
 `

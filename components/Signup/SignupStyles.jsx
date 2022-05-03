@@ -11,6 +11,10 @@ export const SignupContainer = styled.div`
 
 export const SignupContent = styled.div`
   display: flex;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 2.5rem 0;
+  }
 `
 
 export const Left = styled.div`
@@ -30,6 +34,14 @@ export const Right = styled.div`
     font-weight: 400;
     font-size: 24px;
   }
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    margin-top: 1.8rem;
+
+    h3 {
+      font-size: 18px;
+    }
+  }
 `
 
 export const SignupButton = styled.a`
@@ -48,4 +60,8 @@ export const SignupButton = styled.a`
   justify-content: center;
   padding: 0.7rem;
   border-radius: 0.25rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 0.8rem auto;
+  }
 `

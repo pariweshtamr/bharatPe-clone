@@ -14,6 +14,9 @@ export const HighlightsHeader = styled.div`
     font-weight: 700;
     color: #1d1d1b;
     margin-bottom: 1rem;
+    @media screen and (max-width: 767px) {
+      font-size: 30px;
+    }
   }
 `
 
@@ -50,6 +53,18 @@ export const BodyRightContainer = styled.div`
     padding-right: 4rem;
     text-align: left;
   }
+  @media screen and (max-width: 767px) {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      text-align: center;
+      padding: 0;
+    }
+  }
 `
 
 export const BodyRightContent = styled.div`
@@ -75,6 +90,18 @@ export const BodyLeftContainer = styled.div`
     text-align: left;
     color: #8d8b97;
     padding-right: 2.5rem;
+  }
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 35px 0;
+
+    p {
+      text-align: center;
+      padding: 0;
+    }
   }
 `
 export const BodyLeftContent = styled.div`

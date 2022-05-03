@@ -14,6 +14,9 @@ export const AllInOneHeader = styled.div`
     font-weight: 700;
     color: #1d1d1b;
     margin-bottom: 1rem;
+    @media screen and (max-width: 767px) {
+      font-size: 30px;
+    }
   }
 `
 
@@ -50,6 +53,19 @@ export const BodyRightContainer = styled.div`
     padding-right: 9rem;
     text-align: left;
   }
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    p {
+      padding: 0;
+      text-align: center;
+    }
+  }
 `
 
 export const BodyRightContent = styled.div`
@@ -61,6 +77,9 @@ export const BodyRightContent = styled.div`
   h4 {
     margin-left: 1rem;
     font-weight: 600;
+    @media screen and (max-width: 767px) {
+      font-size: 16px;
+    }
   }
 `
 export const BodyLeft = styled.div`
@@ -76,6 +95,20 @@ export const BodyLeftContainer = styled.div`
   p {
     text-align: left;
     color: #8d8b97;
+  }
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+    p {
+      padding: 0;
+      text-align: center;
+    }
   }
 `
 export const BodyLeftContent = styled.div`
@@ -97,4 +130,8 @@ export const BackgroundImage = styled.div`
   position: absolute;
   top: 30%;
   left: 23%;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 `

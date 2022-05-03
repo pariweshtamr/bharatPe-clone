@@ -1,5 +1,6 @@
 import {
   CarouselButtons,
+  CarouselContainer,
   CarouselIndicators,
   CarouselItem,
   CarouselItemLeft,
@@ -13,7 +14,7 @@ import Image from 'next/image'
 
 const Carousel = () => {
   return (
-    <div className="container">
+    <CarouselContainer className="container">
       <div className="row">
         <div
           id="carouselIndicators"
@@ -239,7 +240,7 @@ const Carousel = () => {
           </div>
         </div>
       </div>
-    </div>
+    </CarouselContainer>
   )
 }
 

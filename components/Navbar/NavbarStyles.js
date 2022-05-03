@@ -7,6 +7,10 @@ export const Nav = styled.div`
   width: 100%;
   z-index: 999;
   background: #fbfbfd;
+
+  @media screen and (min-width: 768px) {
+    height: 9.5vh;
+  }
 `
 
 export const NavContainer = styled.nav`

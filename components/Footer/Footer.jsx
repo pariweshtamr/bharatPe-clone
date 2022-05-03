@@ -9,8 +9,17 @@ import {
   FooterDownloads,
   FooterLeft,
 } from './FooterStyles'
+import { useEffect, useState } from 'react'
 
 const Footer = () => {
+  const [mobile, setMobile] = useState(false)
+
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      setMobile(true)
+    }
+  }, [])
+
   return (
     <FooterContainer>
       <FooterContents className="container">
@@ -65,47 +74,51 @@ const Footer = () => {
           </ul>
         </FooterContent>
 
-        <FooterContent>
-          <ul>
-            <h3>LEGAL</h3>
-            <p>Terms & Conditions</p>
-            <p>Privacy Policy</p>
-          </ul>
-        </FooterContent>
+        {!mobile && (
+          <>
+            <FooterContent>
+              <ul>
+                <h3>LEGAL</h3>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+              </ul>
+            </FooterContent>
 
-        <FooterContent>
-          <ul>
-            <h3>FOLLOW US</h3>
-            <p>
-              <FontAwesomeIcon
-                icon={['fab', 'linkedin']}
-                style={{ fontSize: '15px' }}
-              />
-              <span> Linkedin</span>
-            </p>
-            <p>
-              <FontAwesomeIcon
-                icon={['fab', 'facebook-square']}
-                style={{ fontSize: '15px' }}
-              />
-              <span>Facebook</span>
-            </p>
-            <p>
-              <FontAwesomeIcon
-                icon={['fab', 'instagram-square']}
-                style={{ fontSize: '15px' }}
-              />
-              <span>Instagram</span>
-            </p>
-            <p>
-              <FontAwesomeIcon
-                icon={['fab', 'twitter']}
-                style={{ fontSize: '15px' }}
-              />
-              <span>Twitter</span>
-            </p>
-          </ul>
-        </FooterContent>
+            <FooterContent>
+              <ul>
+                <h3>FOLLOW US</h3>
+                <p>
+                  <FontAwesomeIcon
+                    icon={['fab', 'linkedin']}
+                    style={{ fontSize: '15px' }}
+                  />
+                  <span> Linkedin</span>
+                </p>
+                <p>
+                  <FontAwesomeIcon
+                    icon={['fab', 'facebook-square']}
+                    style={{ fontSize: '15px' }}
+                  />
+                  <span>Facebook</span>
+                </p>
+                <p>
+                  <FontAwesomeIcon
+                    icon={['fab', 'instagram-square']}
+                    style={{ fontSize: '15px' }}
+                  />
+                  <span>Instagram</span>
+                </p>
+                <p>
+                  <FontAwesomeIcon
+                    icon={['fab', 'twitter']}
+                    style={{ fontSize: '15px' }}
+                  />
+                  <span>Twitter</span>
+                </p>
+              </ul>
+            </FooterContent>
+          </>
+        )}
       </FooterContents>
     </FooterContainer>
   )

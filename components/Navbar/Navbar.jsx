@@ -20,14 +20,14 @@ const Navbar = () => {
   const [sidebar, setSidebar] = useState(false)
 
   useEffect(() => {
-    if (window.innerWidth < 1065) {
+    if (window.innerWidth < 900) {
       setMobile(true)
     }
   }, [])
 
   useEffect(() => {
     const handleResize = () => {
-      window.innerWidth < 1065 ? setMobile(true) : setMobile(false)
+      window.innerWidth < 900 ? setMobile(true) : setMobile(false)
     }
     window.addEventListener('resize', handleResize)
     return () => {
@@ -37,45 +37,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* <Nav>
-        <NavContainer className="container">
-
-          <Left>
-            <Link href="/" passHref>
-              <LogoLink>
-                <Image
-                  src="/images/logo.svg"
-                  alt=""
-                  width="150px"
-                  height="41.047px"
-                />
-              </LogoLink>
-            </Link>
-          </Left>
-
-          <Right>
-            <Link href="/" passHref>
-              <StyledLink>About Us</StyledLink>
-            </Link>
-            <Link href="/" passHref>
-              <StyledLink>Business Solution</StyledLink>
-            </Link>
-            <Link href="/" passHref>
-              <StyledLink>Careers</StyledLink>
-            </Link>
-            <Link href="/" passHref>
-              <StyledLink>Blog</StyledLink>
-            </Link>
-            <Link href="/" passHref>
-              <StyledLink>Contact Us</StyledLink>
-            </Link>
-
-            <NavLoginButton>Login</NavLoginButton>
-          </Right>
-        </NavContainer>
-        <NavHr />
-      </Nav> */}
-
       <Nav>
         <NavContainer className="container">
           <Link href="/" passHref>

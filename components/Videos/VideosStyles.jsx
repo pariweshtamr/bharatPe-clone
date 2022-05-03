@@ -14,6 +14,9 @@ export const VideosContainer = styled.div`
     font-weight: 800;
     color: #1d1d1b;
     margin-bottom: 1rem;
+    @media screen and (max-width: 767px) {
+      font-size: 30px;
+    }
   }
 `
 
@@ -30,6 +33,9 @@ export const VideosCarouselItems = styled.div``
 
 export const VidContent = styled.div`
   text-align: center;
+  @media screen and (max-width: 768px) {
+    height: 180px;
+  }
 `
 
 export const PrevButton = styled.div`

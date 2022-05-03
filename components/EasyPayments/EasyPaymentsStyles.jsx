@@ -38,6 +38,9 @@ export const PaymentsHeader = styled.div`
     font-weight: 700;
     color: #1d1d1b;
     margin-bottom: 1rem;
+    @media screen and (max-width: 767px) {
+      font-size: 30px;
+    }
   }
 `
 
@@ -52,4 +55,8 @@ export const PaymentsHr = styled.hr`
 export const PaymentsTag = styled.p`
   letter-spacing: -1px;
   font-size: 14px;
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+    text-align: center;
+  }
 `
